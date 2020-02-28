@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>#nosvemosahi - Reservar fecha</title>
+    <link href=".\css\reservar-fecha.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <img src="" alt="nosvemosahi logo">
+        <p class="navlink"><a href="./home.html">Home</a> | <a href="#">Iniciar Sesión</a> | <a href="#">Registrate</a> | <a href="#">Mapa del sitio</a></p>
+        <h1>{Bar}</h1>
+    </header>
+    <div class="Calendario">
+      <p>Seleccionar fecha disponible:</p>
+      <input type="date" name="fecha" class="fechadisp" value="">
+    </div>
+    <div class="personas">
+
+      <label for="cantpersonas" class="lbcantpersonas">Cantidad de personas: </label>
+      <input type="number" name="cantpersonas" class="personas" value="" min="1">
+    </div>
+    <div class="horario">
+      <label for="horario" class="horario">Horario elegido:</label>
+      <input type="time" name="horario" class="horario" value="">
+    </div>
+    <button type="submit" name="button" id="confirmreserva">Confirmar reserva</button>
+  </body>
+</html>
